@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BackGround Changer</title>
+    <style>
+        h3{
+            text-align: center;
+            background-color: aqua;
+            padding: 10px;
+            text-decoration: underline;
+            
+        }
+        img{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+        body{
+            margin: 0px;
+            padding:20px 100px ;
+        }
+        p{
+            font-size: 18px;
+            text-align: justify;
+        }
+        .btn{
+            width: 20px;
+            height: 20px;
+            display: inline-block;
+            border: solid gray 2px;
+            border-radius: 50%;
+            cursor: pointer;
+
+        }
+        #white{
+            background-color: white;
+
+        }
+        #aqua{
+            background-color: aqua;
+
+        }
+        #violet{
+            background-color: violet;
+
+        }
+        #black{
+            background-color: black;
+        }
+        #color-switch{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <div id="color-switch">
+        <span class="btn" id="white" onclick="changeBG('#ffffff')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#7fffd4')"></span>
+        <span class="btn" id="violet" onclick="changeBG('#ce9aff')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+        </div>
+    <h3>About Us</h3>
+    <center>
+         <img class="text" src="https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg"
+            alt="Envornment">
+    </center>
+    <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ratione fuga necessitatibus quidem sequi
+            blanditiis
+            totam fugit molestiae, voluptatibus expedita mollitia saepe, officiis eaque rerum nisi? Totam at aspernatur
+            fugit
+            beatae neque saepe ad dolore magni. Rerum repellat architecto nostrum perspiciatis placeat cupiditate ullam
+            tempore
+            adipisci voluptatem deleniti quam, rem neque cumque iusto, libero quasi. Non quibusdam architecto tempora porro.
+            Repellat nihil cumque at, fuga debitis ullam officia nisi facilis voluptatum odio quia impedit vel tenetur, et
+            molestias sequi minus magni in ratione aperiam aliquid porro voluptatem. Quo velit voluptatem dicta nulla atque
+            corporis doloribus at nesciunt sit, error incidunt, consectetur maiores voluptatibus, natus provident!
+            Reprehenderit
+            ea quas id corrupti ducimus ipsam tempore quia deleniti molestias voluptas recusandae excepturi velit dolores
+            odio
+            facere aut sint voluptate necessitatibus, quaerat fugit rem earum nobis illo. Provident a eum, facilis vitae
+            asperiores maxime cupiditate placeat accusamus ipsa est nesciunt consectetur beatae reiciendis unde suscipit!
+            Perspiciatis in enim eos ad assumenda aperiam quod recusandae, nihil, consequuntur aliquid deserunt itaque
+            tenetur
+            beatae? Optio alias, tempore corporis, magni cupiditate blanditiis autem minima dignissimos nulla saepe maiores
+            consequatur. Quos consequatur porro nam! Labore ad, perspiciatis doloribus magni libero, maxime unde nam
+            explicabo
+            numquam deserunt quos? Maxime omnis quibusdam est iure laborum dolores, qui quod totam ea, odio, debitis atque
+            nobis
+            doloremque beatae. Est doloremque dolores at. Amet sequi itaque eius harum deserunt earum est facilis officia
+            nemo
+            illo assumenda, maiores rerum deleniti nisi neque laborum ullam quis libero. Dolorum, nemo! Ducimus debitis,
+            sint
+            nihil vel accusamus fugiat animi cumque consequatur quia doloremque repellendus sequi nisi expedita ab id? Porro
+            voluptas molestias, quia odit voluptatem, placeat quos, corporis eveniet vero minima accusamus enim illum nobis
+            nulla? Maiores hic soluta, illo nulla, ullam sint consequatur nobis possimus fugit quae labore vero culpa fuga
+            laborum dolor explicabo commodi quidem quia! Iste consequuntur incidunt molestiae reiciendis! Consequatur
+            tenetur
+            impedit eum, odit quod nostrum suscipit eligendi quam reprehenderit? Voluptatibus molestias, quos reiciendis
+            odit
+            exercitationem laudantium possimus minima aliquam reprehenderit ut commodi vel aliquid aperiam esse, pariatur
+            voluptatum ullam ab labore laboriosam dolorem eaque aspernatur veniam at nemo. Et deleniti dicta itaque non,
+            dolorum
+            exercitationem est dignissimos enim. Aut, eveniet recusandae architecto modi maxime pariatur incidunt aperiam,
+            voluptatum ex laboriosam laborum? Porro impedit omnis neque nobis quam soluta quos earum sapiente nisi itaque
+            ipsum
+            adipisci veniam reprehenderit dignissimos illo autem facere cum corporis laudantium sed optio, recusandae
+            deleniti
+            alias. Possimus beatae accusantium similique tempora illo ad sapiente officiis mollitia corporis reiciendis.
+            Tempore
+            iste expedita quod architecto ducimus fuga rem porro. Commodi sed quas sit doloribus, repellat earum ipsam
+            exercitationem voluptatum, cum minima molestias veritatis aspernatur esse, facilis provident. Cupiditate minus
+            nesciunt minima in delectus error culpa similique. Reprehenderit sint maxime ad consequuntur voluptate,
+            consectetur
+            eum dolor ea excepturi, veritatis deleniti. Officiis assumenda iure veniam molestiae dolorum eaque maxime
+            consequatur, laborum, porro atque error quisquam consequuntur earum perspiciatis libero ab alias repellendus
+            nesciunt aspernatur tempora illo vero quasi. Officia nulla id, quo perspiciatis odit quae excepturi consequuntur
+            deserunt tempora nostrum? Inventore nesciunt illum quam.
+    
+    </p>
+    <script>
+        function changeBG(color){
+            document.body.style.backgroundColor = color;
+            let txt = document.getElementsByClassName('text');
+            if(color == '#000000'){
+                for (let elm of txt){
+                    elm.style.color = 'white';
+                }
+            }
+            else{
+                for (let elm of txt){
+                    elm.style.color = 'black';
+                }
+            }
+
+        }
+    </script>
+    
+</body>
+</html>
